@@ -1,0 +1,215 @@
+.row>* {
+    margin-bottom: 0;
+    padding-right: calc(var(--bs-gutter-x)* .2);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+}
+
+.table_component {
+    overflow: auto;
+    width: 100%;
+}
+
+.table_component table {
+    border: 1px solid #dededf;
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.table_component caption {
+    caption-side: top;
+    text-align: left;
+}
+
+.table_component th {
+    border: 1px solid #dededf;
+    background-color: var(--table-bg2);
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.table_component td {
+    border: 1px solid #dededf;
+    background-color: var(--background);
+    color: var(--color);
+    padding: 5px;
+    text-align: center;
+}
+
+.oldred {
+    background-color: var(--table-bg1) !important;
+    color: #fff !important;
+}
+
+.youngred {
+    background-color: #F5A1A5 !important;
+    color: #000000 !important;
+}
+
+:-webkit-full-screen .fscreen {
+    display: none;
+  }
+
+:-webkit-full-screen .sidebar-mini.sidenav-toggled .main-content.side-content {
+    margin-inline-start: 0 !important;
+}
+
+  @media all and (display-mode: fullscreen) {
+    .sidebar-mini.sidenav-toggled .main-content.side-content {
+        margin-inline-start: 0 !important;
+    }
+    .fscreen {
+        display: none !important;
+        visibility: hidden;
+    }
+  }
+
+  body:-webkit-full-screen .fscreen {
+    display: none;
+    visibility: hidden !important;
+  }
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 18px;
+    padding: 15px;
+  }
+  
+  #grid-container > div {
+    font-size: 14px;
+    text-align: center;
+    color: var(--color);
+  }
+
+.icon-group {
+    font-size: 38px;
+    display: block;
+    margin-bottom: -8px;
+}
+
+/* menu tab */
+
+.top-menu-box {
+    padding: 5px 9px 5px 8px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--menuboxtab-bg);
+    margin: 20px 0;
+}
+
+.top-menu-box nav {
+	margin: 3px auto 3px;
+	position: relative;
+    width: 610px;
+    height: 36px;
+    border-radius: 8px;
+	font-size: 0;
+}
+.top-menu-box nav a {
+	line-height: 36px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+    color: var(--topmenu-color);
+}
+.top-menu-box nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+.top-menu-box a:nth-child(1) {
+	width: 120px;
+}
+.top-menu-box a:nth-child(2) {
+	width: 150px;
+}
+.top-menu-box a:nth-child(3) {
+	width: 180px;
+}
+.top-menu-box a:nth-child(4) {
+	width: 160px;
+}
+.top-menu-box nav .start-menu1, a:nth-child(1):hover~.animation {
+	width: 120px;
+	left: 0;
+	background-color: var(--topmenu-bg);
+}
+.top-menu-box nav .start-menu2, a:nth-child(2):hover~.animation {
+	width: 150px;
+	left: 120px;
+	background-color: var(--topmenu-bg);
+}
+.top-menu-box nav .start-menu3, a:nth-child(3):hover~.animation {
+	width: 180px;
+	left: 270px;
+	background-color: var(--topmenu-bg);
+}
+.top-menu-box nav .start-menu4, a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 450px;
+	background-color: var(--topmenu-bg);
+}
+
+/* box style */
+.box-grey {
+    background: var(--bgrey);
+    border-radius: 10px;
+}
+.box-white {
+    padding: 30px;
+    border-radius: 10px;
+    background: var(--white-bg) !important;
+    margin-right: 5px;
+}
+
+.box-white1 {
+    border-radius: 10px;
+    background: var(--white-bg) !important;
+}
+
+/* icon theme switch */
+
+[data-theme-color=light] .ic-dark {
+    display: none;
+}
+
+[data-theme-color=dark] .ic-light {
+    display: none;
+}
+
+/* chart-value */
+.value-center {
+    display: block;
+    font-size: 27px;
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+/* buuton */
+.btn-view {
+    color: #fff !important;
+    background: #B04746;
+    border-color: #B04746;
+    box-shadow: 0 5px 10px rgba(1, 120, 250, 0.17);
+}
+
+.btn-view:hover {
+    color: #fff !important;
+    background: #792929;
+    border-color: #792929;
+    box-shadow: 0 5px 10px rgba(1, 120, 250, 0.17);
+}
