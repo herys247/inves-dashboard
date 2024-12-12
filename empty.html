@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme-color="light" data-layout="horizontal" data-hor-style="hor-hover" data-position="scrollable" data-menu-style="light" data-header-style="light" data-width="fullwidth">
+	<head>
+
+		<!-- META DATA -->
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Unified Telkomsel Online Information Portal">
+		<meta name="author" content="">
+		
+		<!-- FAVICON -->
+		<link rel="shortcut icon" type="image/x-icon" href="assets/images/brand/favicon.ico" >
+
+		<!-- TITLE -->
+		<title>Inves Dashboard -Telkomsel</title>
+
+		<!-- BOOTSTRAP CSS -->
+		<link id="style"  href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- STYLE CSS -->
+		<link href="assets/css/style.css" rel="stylesheet">
+		<link href="assets/css/customs.css" rel="stylesheet">
+
+		<!--- FONT-ICONS CSS -->
+		<link href="assets/css/icons.css" rel="stylesheet">
+
+	</head>
+	<body class="app Left-menu-Default Sidemenu-left-icons">
+
+
+
+		<!-- GLOBAL-LOADER -->
+		<div id="global-loader">
+			<img src="assets/images/loader.svg" class="loader-img" alt="Loader">
+		</div>
+		<!-- /GLOBAL-LOADER -->
+
+		<!-- PAGE -->
+		<div class="page">
+			<div class="page-main">
+
+<!-- fullscreen -->
+<div class="fscreen">
+
+	<!--Main Header -->
+	<div class="main-header side-header sticky">
+		<div class="container-fluid main-container">
+			<div class="main-header-left sidemenu">
+				<a class="main-header-menu-icon" href="javascript:void(0);" data-bs-toggle="sidebar" id="mainSidebarToggle"><span></span></a>
+			</div>
+			<div class="main-header-left horizontal">
+				<a class="main-logo" href="index.html">
+					<img src="assets/images/brand/logo.png" class="desktop-logo desktop-logo-dark" alt="Inves Dashboard Telkomsel">
+					<img src="assets/images/brand/logo.png" class="desktop-logo theme-logo" alt="Inves Dashboard Telkomsel">
+				</a>
+			</div>
+			<div class="main-header-right">
+				<button class="navbar-toggler navresponsive-toggler d-lg-none ms-auto collapsed" type="button"
+					data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent-4"
+					aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon fe fe-more-vertical"></span>
+				</button>
+				<div class="navbar navbar-expand-lg navbar-collapse responsive-navbar p-0">
+					<div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+						<ul class="nav nav-item header-icons navbar-nav-right ms-auto">
+							<li class="dropdown d-md-flex notifications">
+								<a href="#" title="Fullscreen" data-toggle="fullscreen" class="nav-link icon">
+									<i class="mdi mdi-fullscreen"></i>
+								</a>
+							</li>
+							
+							<li class="dropdown  d-flex">
+								<a class="nav-link icon theme-layout nav-link-bg layout-setting" href="javascript:void(0);">
+									<span class="dark-layout"><i class="mdi mdi-weather-night"></i></span>
+									<span class="light-layout"><i class="mdi mdi-weather-sunny"></i></span>
+								</a>
+							</li>
+
+							<li class="dropdown d-md-flex notifications">
+								<a class="nav-link icon" data-bs-toggle="dropdown">
+									<i class="mdi mdi-bell-outline"></i>
+									<span class="nav-unread badge badge-notif badge-pill">2</span>
+								</a>
+								<div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+									<div class="d-flex justify-content-between align-items-center p-3">
+										<a href="#" class="fw-semibold fs-17">Notifications(4)</a>
+										<span class="badge bg-secondary lh-base">Mark all as read</span>
+									</div>
+									<div class="dropdown-divider"></div>
+									<div class="notifications-menu">
+										<a class="dropdown-item d-flex align-items-center" href="javascript:void(0)">
+											<div class="me-3 avatar avatar-md rounded-5 bg-secondary">
+												<i class="fe fe-check-circle"></i>
+											</div>
+											<div class="mt-1 wd-80p">
+												<p class="fs-16 mb-0">Projects are done</p>
+												<span class="fs-13">2 hours ago</span>
+											</div>
+											<div class="ms-auto">
+												<i class="fe fe-chevron-right fs-18"></i>
+											</div>
+										</a>
+										<a class="dropdown-item d-flex align-items-center" href="javascript:void(0)">
+											<div class="me-3 avatar avatar-md rounded-5 bg-pink">
+												<i class="fe fe-user-plus"></i>
+											</div>
+											<div class="mt-1 wd-80p">
+												<p class="fs-16 mb-0">You may have Requests</p>
+												<span class="fs-13">1 day ago</span>
+											</div>
+											<div class="ms-auto">
+												<i class="fe fe-chevron-right fs-18"></i>
+											</div>
+										</a>
+									</div>
+									<div class="dropdown-divider"></div>
+									<div class="d-grid gap-2 px-2 py-1">
+										<a href="emailservices.html" class="btn btn-block btn-primary">View all notifications</a>
+									</div>
+									<!-- <a href="#" class="dropdown-item text-center">View all Notification</a> -->
+								</div>
+							</li>
+							<li class="dropdown profile-1 d-inline-flex">
+								<a href="#" data-bs-toggle="dropdown" class="nav-link ps-5 leading-none d-flex">
+									<span>
+										<img src="assets/images/users/user-bearded.jpg" alt="profile-user" class="avatar  profile-user cover-image">
+									</span>
+								</a>
+								<div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+									<div class="m-0"></div>
+									<a class="dropdown-item" href="profile.html">
+										<i class="dropdown-icon mdi mdi-account-outline"></i> Profile
+									</a>
+									<div class="dropdown-divider mt-0"></div>
+									<a class="dropdown-item" href="login.html">
+										<i class="dropdown-icon mdi  mdi-logout-variant"></i> Sign out
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Main Header -->
+
+	<!-- Sidemenu -->
+	<div class="sticky fscreen">
+		<aside class="app-sidebar ps horizontal-main ps--active-y" style="height: 100%;">
+			<div class="app-sidebar__header">
+				<a class="main-logo" href="index.html">
+					<img src="assets/images/brand/logo.png" class="desktop-logo desktop-logo-dark" alt="Inves Dashboard Telkomsel">
+					<img src="assets/images/brand/logo1.png" class="desktop-logo" alt="Inves Dashboard Telkomsel">
+					<img src="assets/images/brand/favicon.png" class="mobile-logo mobile-logo-dark" alt="Inves Dashboard Telkomsel">
+					<img src="assets/images/brand/favicon1.png" class="mobile-logo" alt="Inves Dashboard Telkomsel">
+				</a>
+			</div>
+			<div class="main-sidemenu">
+				<div class="slide-left disabled" id="slide-left">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
+						<path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"></path>
+					</svg>
+				</div>
+				<ul class="side-menu">
+					<li class="slide">
+						<a class="side-menu__item" data-bs-toggle="slide" href="index.html">
+							<span class="side-menu__icon">
+								<i class="mdi mdi-vector-intersection side_menu_img"></i>
+							</span>
+							<span class="side-menu__label">Synergy Value</span>
+						</a>
+					</li>
+					<li class="slide">
+						<a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0);">
+							<span class="side-menu__icon"><i class="mdi mdi-account-box side_menu_img"></i></span>
+							<span class="side-menu__label">Administrator</span><i class="angle fa fa-angle-right"></i>
+						</a>
+						<ul class="slide-menu">
+							<li class="panel sidetab-menu">
+								<div class="panel-body tabs-menu-body p-0 border-0">
+									<ul class="sidemenu-list">
+										<li class="side-menu__label1"><a href="javascript:void(0)">Adminstrator</a></li> <!-- for minified menu label level 1 -->
+										<li><a class="slide-item" href="dashboard.html">Dashboard Management</a></li>
+										<li><a class="slide-item" href="user.html">User Management</a></li>
+										<li><a class="slide-item" href="role.html">Role Management</a></li>
+										<li><a class="slide-item" href="group.html">Group Management</a></li>
+										<li><a class="slide-item" href="menu.html">Menu Management</a></li>
+										<li><a class="slide-item" href="activity.html">List Activity</a></li>
+										<li><a class="slide-item" href="olap.html">OLAP Configuration</a></li>
+									</ul>
+								</div>
+							</li>
+
+						</ul>
+					</li>
+					
+					<li class="slide">
+						<a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0);">
+							<span class="side-menu__icon"><i class="mdi mdi-television side_menu_img"></i></span>
+							<span class="side-menu__label">Pages</span><i class="angle fa fa-angle-right"></i>
+						</a>
+						<ul class="slide-menu">
+							<li class="panel sidetab-menu">
+								<div class="panel-body tabs-menu-body p-0 border-0">
+									<ul class="sidemenu-list">
+										<li class="side-menu__label1"><a href="javascript:void(0)">Pages</a></li> <!-- for minified menu label level 1 -->
+										<li><a class="slide-item" href="login.html">Login</a></li>
+										<li><a class="slide-item" href="profile.html">User Profile</a></li>
+										<li><a class="slide-item" href="error.html">Error Page</a></li>
+										<li><a class="slide-item" href="empty.html">Empty Page</a></li>
+									</ul>
+								</div>
+							</li>
+
+						</ul>
+					</li>
+					<li class="slide">
+						<a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0);">
+							<span class="side-menu__icon"><i class="mdi mdi-television-guide side_menu_img"></i></span>
+							<span class="side-menu__label">Component</span><i class="angle fa fa-angle-right"></i>
+						</a>
+						<ul class="slide-menu">
+							<li class="panel sidetab-menu">
+								<div class="panel-body tabs-menu-body p-0 border-0">
+									<ul class="sidemenu-list">
+										<li class="side-menu__label1"><a href="javascript:void(0)">Component</a></li> <!-- for minified menu label level 1 -->
+										<li class="sub-slide">
+											<a class="slide-item side-menu__item-sub" data-bs-toggle="sub-slide" href="javascript:void(0)">
+												<span class="sub-side-menu__label">Table</span>
+												<i class="sub-angle fe fe-chevron-down"></i>
+											</a>
+											<ul class="sub-slide-menu">
+												<li><a class="sub-side-menu__item" href="table.html">Default Table</a></li>
+												<li><a class="sub-side-menu__item" href="datatable.html">Datatable</a></li>
+											</ul>
+										</li>
+										<li><a class="slide-item" href="cards.html">Cards</a></li>
+										<li><a class="slide-item" href="chart.html">CharJS</a></li>
+										<li><a class="slide-item" href="form.html">Form</a></li>
+									</ul>
+								</div>
+							</li>
+
+						</ul>
+					</li>
+					<li class="slide">
+						<a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0);">
+							<span class="side-menu__icon"><i class="mdi mdi-blur-linear side_menu_img"></i></span>
+							<span class="side-menu__label">Element</span><i class="angle fa fa-angle-right"></i>
+						</a>
+						<ul class="slide-menu">
+							<li class="panel sidetab-menu">
+								<div class="panel-body tabs-menu-body p-0 border-0">
+									<ul class="sidemenu-list">
+										<li class="side-menu__label1"><a href="javascript:void(0)">Element</a></li> <!-- for minified menu label level 1 -->
+										<li><a class="slide-item" href="tab.html">Tab</a></li>
+										<li><a class="slide-item" href="alert.html">Alerts</a></li>
+										<li><a class="slide-item" href="sweetalert.html">Sweet Alert</a></li>
+									</ul>
+								</div>
+							</li>
+
+						</ul>
+					</li>
+					<li class="slide">
+						<a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0)">
+							<span class="side-menu__icon">
+								<i class="mdi mdi-file-tree side_menu_img"></i>
+							</span>
+							<span class="side-menu__label">Tree Menu Level</span>
+							<i class="angle fa fa-angle-right"></i>
+						</a>
+						<ul class="slide-menu">
+							<li class="panel sidetab-menu">
+								<div class="panel-body tabs-menu-body p-0 border-0">
+									<ul class="sidemenu-list">
+										<li class="side-menu__label1"><a href="javascript:void(0)">Tree Menu Level</a></li>
+										<li><a class="slide-item" href="javascript:void(0)">Sub Menu-1</a></li>
+										<li class="sub-slide">
+											<a class="slide-item side-menu__item-sub" data-bs-toggle="sub-slide" href="javascript:void(0)">
+												<span class="sub-side-menu__label">Sub Menu-2</span>
+												<i class="sub-angle fe fe-chevron-down"></i>
+											</a>
+											<ul class="sub-slide-menu">
+												<li><a class="sub-side-menu__item" href="javascript:void(0)">Sub Menu-2.1</a></li>
+												<li><a class="sub-side-menu__item" href="javascript:void(0)">Sub Menu-2.2</a></li>
+												<li class="sub-slide2">
+													<a class="sub-side-menu__item side-menu__item-sub2" data-bs-toggle="sub-slide2" href="javascript:void(0)">
+														<span class="sub-side-menu__label">Sub Menu-2.3</span>
+														<i class="sub-angle2 fe fe-chevron-down"></i>
+													</a>
+													<ul class="sub-slide-menu1">
+														<li><a class="sub-slide-item2" href="javascript:void(0)">Sub Menu-2.3.1</a></li>
+														<li><a class="sub-slide-item2" href="javascript:void(0)">Sub Menu-2.3.2</a></li>
+														<li><a class="sub-slide-item2" href="javascript:void(0)">Sub Menu-2.3.3</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+
+			</div>
+		</aside>
+	</div>
+	<!-- End Sidemenu -->
+
+	</div>
+	<!-- fullscreen -->
+
+
+                <!--app-content open-->
+				<div class="main-content side-content pt-0">
+					<div class="side-app">
+						<div class="main-container container-fluid">
+							<!-- PAGE-HEADER -->
+							<div class="page-header">
+								<div>
+									<!-- breadcrumb -->
+									<ol class="breadcrumb">
+										<li class="breadcrumb-item"><a href="#">Pages</a></li>
+										<li class="breadcrumb-item active dropdown-toggle"data-bs-toggle="dropdown" aria-expanded="false" aria-current="page"><span href="#">Empty Page</span>
+											<ul class="dropdown-menu">
+												<li><a class="dropdown-item" href="#">Action</a></li>
+												<li><a class="dropdown-item" href="#">Another action</a></li>
+												<li><a class="dropdown-item" href="#">Something else here</a></li>
+											  </ul>
+										</li>
+									</ol>
+									<!-- End breadcrumb -->
+								</div>
+								<div class="ms-auto">
+									<div>
+										<a href="#" class="btn btn-primary button-icon me-3 mt-1 mb-1">
+											<span><i class="fa fa-pencil-square-o"></i>More Dashboard</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<!-- PAGE-HEADER END -->
+
+							<!-- CONTENT-->
+							<div class="row">	
+								<!-- title page -->							
+								<div class="col-xl-12 mt-0"><h4 class="mt-2 mb-4 ms-1 font-weight-bold">Untitled Page</h4></div>
+								<!-- content start-->
+								 <div class="row">
+									<div class="col-xl-12">
+
+										Content Here! <!-- put content here guys -->
+
+									</div>
+								 </div>
+								<!-- content end -->
+							</div>
+							<!-- CONTENT -->
+						</div>
+					</div>
+					<!-- CONTAINER CLOSED -->
+				</div>
+			</div>
+
+		</div>
+
+		<!-- BACK-TO-TOP -->
+		<a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+		<!-- JQUERY JS -->
+		<script src="assets/js/jquery.min.js"></script>
+
+		<!-- BOOTSTRAP JS -->
+		<script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/plugins/bootstrap/js/popper.min.js"></script>
+
+		<!-- SIDE-MENU JS -->
+		<script src="assets/plugins/sidemenu/sidemenu.js"></script>
+
+		<!-- CUSTOM SCROLL BAR JS-->
+		<script src="assets/plugins/p-scroll/perfect-scrollbar.js"></script>
+		<script src="assets/plugins/p-scroll/p-scroll.js"></script>
+
+		<!-- SIDEBAR JS -->
+		<script src="assets/plugins/sidebar/sidebar.js"></script>
+
+		<!-- Sticky js-->
+		<script src="assets/js/sticky.js"></script>
+
+		<!-- SELECT2 JS -->
+		<script src="assets/plugins/select2/select2.full.min.js"></script>
+
+		<!-- CUSTOM JS -->
+		<script src="assets/js/custom.js"></script>
+		<script src="assets/js/custom-switcher.js"></script>
+
+		
+
+	</body>
+</html>
