@@ -194,10 +194,11 @@
 /* chart-value */
 .value-center {
     display: block;
-    font-size: 27px;
+    font-size: 18px;
     font-weight: 600;
-    margin: 8px 0;
+    margin: 8px 0 0 0;
 }
+
 
 /* buuton */
 .btn-view {
@@ -212,4 +213,8 @@
     background: #792929;
     border-color: #792929;
     box-shadow: 0 5px 10px rgba(1, 120, 250, 0.17);
+}
+
+.color-view {
+    color: #792929;
 }
