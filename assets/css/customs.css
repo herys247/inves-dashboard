@@ -4,6 +4,8 @@
     padding-left: calc(var(--bs-gutter-x)* .5);
 }
 
+
+
 .table_component {
     overflow: auto;
     width: 100%;
@@ -170,7 +172,7 @@
     border-radius: 10px;
 }
 .box-white {
-    padding: 30px;
+    padding: 15px;
     border-radius: 10px;
     background: var(--white-bg) !important;
     margin-right: 5px;

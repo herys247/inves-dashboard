@@ -5196,9 +5196,8 @@ button::-moz-focus-inner,
 
 .card-title {
     margin-block-end: 1rem;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
-    padding-top: 10px;
 }
 
 .card-subtitle {
@@ -5453,9 +5452,9 @@ button::-moz-focus-inner,
 
 .card {
     position: relative;
-    margin-block-end: 1rem;
+    margin-block-end: 10px;
     width: 100%;
-    padding: 12px;
+    padding: 10px;
 }
 
 .card .card {
